@@ -1,0 +1,17 @@
+**/private/
+**/__pycache__/
+*.py[cod]
+.env
+*.env
+!app.env.example
+workflow.md
+progress.json
+*-events.json
+*-actions*.json
+review-run-*.json
+*.pdf
+*.docx
+*.ics
+*.pem
+*.key
+.venv/
