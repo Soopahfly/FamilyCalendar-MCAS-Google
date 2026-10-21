@@ -1,0 +1,17 @@
+[Unit]
+Description=Private family school reader and authorised review bridge
+After=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=%h/FamilyCalendar-MCAS-Google/mcas-reader
+EnvironmentFile=%h/FamilyCalendar-MCAS-Google/mcas-reader/private/app.env
+ExecStart=/usr/bin/env python3 %h/FamilyCalendar-MCAS-Google/mcas-reader/mcas.py serve --host 127.0.0.1
+Restart=on-failure
+RestartSec=30
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=default.target
