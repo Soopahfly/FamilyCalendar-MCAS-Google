@@ -1,0 +1,17 @@
+{
+  "timezone": "Europe/London",
+  "requested_mailbox": "CONFIGURE_LOCALLY",
+  "other_identity": "CONFIGURE_LOCALLY",
+  "destination_calendar_id": "CONFIGURE_LOCALLY",
+  "initial_review_complete": false,
+  "coverage": [],
+  "pagination": {},
+  "sources": [],
+  "calendar_actions": [],
+  "last_successful_mail_scan": null,
+  "last_morning_crosscheck_local_date": null,
+  "phone_test": {"status": "not_tested", "cleanup_required": false},
+  "unresolved": [],
+  "issues_reported": [],
+  "server_review_runner": {"enabled": false, "validated": false}
+}
